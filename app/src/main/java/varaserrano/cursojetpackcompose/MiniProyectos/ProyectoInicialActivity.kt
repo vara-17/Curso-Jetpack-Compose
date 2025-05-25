@@ -130,8 +130,3 @@ fun Texto(texto: String) {
             .clickable { println("Hola Jetpack") }
     )
 }
-
-@Composable
-fun Space() {
-    Spacer(modifier = Modifier.height(5.dp))
-}

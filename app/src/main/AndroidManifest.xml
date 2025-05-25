@@ -28,6 +28,11 @@
             android:name=".MiniProyectos.ProyectoInicialActivity"
             android:exported="true"
             android:theme="@style/Theme.CursoJetpackCompose" />
+
+        <activity
+            android:name=".MiniProyectos.ProyectoBotonesActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CursoJetpackCompose" />
     </application>
 
 </manifest>

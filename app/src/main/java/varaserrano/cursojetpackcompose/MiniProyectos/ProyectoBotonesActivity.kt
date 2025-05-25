@@ -1,4 +1,4 @@
-package varaserrano.cursojetpackcompose
+package varaserrano.cursojetpackcompose.MiniProyectos
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -21,7 +21,7 @@ import androidx.compose.ui.unit.dp
 import varaserrano.cursojetpackcompose.ui.theme.CursoJetpackComposeTheme
 import varaserrano.cursojetpackcompose.MiniProyectos.Botones.*
 
-class MainActivity : ComponentActivity() {
+class ProyectoBotonesActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -66,4 +66,9 @@ fun Content(darkMode: MutableState<Boolean>) {
         Space()
         BotonFlotante()
     }
+}
+
+@Composable
+fun Space() {
+    Spacer(modifier = Modifier.height(10.dp))
 }
